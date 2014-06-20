@@ -38,7 +38,7 @@
     {
         [[TGAccessoryManager sharedTGAccessoryManager] startStream];
     }
-    self.emotionTextView.text = @"";
+    self.emotionTextView.text = @"Like: \nInterest: \nConcentration: \nDrowsiness: \nStress: ";
     
     self.idTextField.delegate = self;
 }

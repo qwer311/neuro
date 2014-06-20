@@ -25,6 +25,26 @@
 		90344F0F175DD8A2004DBC74 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90344F0E175DD8A2004DBC74 /* QuartzCore.framework */; };
 		904A6BBF17C5A4890065055B /* Storyboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 904A6BBE17C5A4890065055B /* Storyboard_iPad.storyboard */; };
 		AAE08AB110E2021E008BB459 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = AAE08AB010E2021E008BB459 /* Entitlements.plist */; };
+		F940353D195415D800891C03 /* ogp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F940353B195415D800891C03 /* ogp.jpg */; };
+		F940353E195415D800891C03 /* ogp120.png in Resources */ = {isa = PBXBuildFile; fileRef = F940353C195415D800891C03 /* ogp120.png */; };
+		F94035401954167500891C03 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F940353F1954167400891C03 /* Media.xcassets */; };
+		F9403542195418CB00891C03 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9403541195418CB00891C03 /* Default-568h@2x.png */; };
+		F94035541954199E00891C03 /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = F94035441954199E00891C03 /* Icon-60.png */; };
+		F94035551954199E00891C03 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F94035451954199E00891C03 /* Icon-60@2x.png */; };
+		F94035561954199E00891C03 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = F94035461954199E00891C03 /* Icon-72.png */; };
+		F94035571954199E00891C03 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F94035471954199E00891C03 /* Icon-72@2x.png */; };
+		F94035581954199E00891C03 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = F94035481954199E00891C03 /* Icon-76.png */; };
+		F94035591954199E00891C03 /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F94035491954199E00891C03 /* Icon-76@2x.png */; };
+		F940355A1954199E00891C03 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = F940354A1954199E00891C03 /* Icon-Small-50.png */; };
+		F940355B1954199E00891C03 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F940354B1954199E00891C03 /* Icon-Small-50@2x.png */; };
+		F940355C1954199E00891C03 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = F940354C1954199E00891C03 /* Icon-Small.png */; };
+		F940355D1954199E00891C03 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F940354D1954199E00891C03 /* Icon-Small@2x.png */; };
+		F940355E1954199E00891C03 /* Icon-Spotlight-40.png in Resources */ = {isa = PBXBuildFile; fileRef = F940354E1954199E00891C03 /* Icon-Spotlight-40.png */; };
+		F940355F1954199E00891C03 /* Icon-Spotlight-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F940354F1954199E00891C03 /* Icon-Spotlight-40@2x.png */; };
+		F94035601954199E00891C03 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F94035501954199E00891C03 /* Icon.png */; };
+		F94035611954199E00891C03 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F94035511954199E00891C03 /* Icon@2x.png */; };
+		F94035621954199E00891C03 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = F94035521954199E00891C03 /* iTunesArtwork */; };
+		F94035631954199E00891C03 /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = F94035531954199E00891C03 /* iTunesArtwork@2x */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +52,7 @@
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* ThinkGearTouchAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThinkGearTouchAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* ThinkGearTouchAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThinkGearTouchAppDelegate.m; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* EEGApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EEGApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* EmotionAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmotionAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		268327351593C23200D004F6 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		26A718B713CBD0BC00962E54 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
@@ -54,6 +74,26 @@
 		904A6BBE17C5A4890065055B /* Storyboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard_iPad.storyboard; sourceTree = "<group>"; };
 		AAE08AB010E2021E008BB459 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
 		D09DE939DD8C455882FFAEDA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F940353B195415D800891C03 /* ogp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ogp.jpg; sourceTree = "<group>"; };
+		F940353C195415D800891C03 /* ogp120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ogp120.png; sourceTree = "<group>"; };
+		F940353F1954167400891C03 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		F9403541195418CB00891C03 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F94035441954199E00891C03 /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = "<group>"; };
+		F94035451954199E00891C03 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		F94035461954199E00891C03 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		F94035471954199E00891C03 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		F94035481954199E00891C03 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		F94035491954199E00891C03 /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		F940354A1954199E00891C03 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		F940354B1954199E00891C03 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		F940354C1954199E00891C03 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		F940354D1954199E00891C03 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		F940354E1954199E00891C03 /* Icon-Spotlight-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight-40.png"; sourceTree = "<group>"; };
+		F940354F1954199E00891C03 /* Icon-Spotlight-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight-40@2x.png"; sourceTree = "<group>"; };
+		F94035501954199E00891C03 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		F94035511954199E00891C03 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		F94035521954199E00891C03 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		F94035531954199E00891C03 /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iTunesArtwork@2x"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +134,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* EEGApp.app */,
+				1D6058910D05DD3D006BFB54 /* EmotionAPI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,10 +142,15 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				F9403541195418CB00891C03 /* Default-568h@2x.png */,
+				F940353F1954167400891C03 /* Media.xcassets */,
 				9009AC4317E806AD00EEFB86 /* MessageUI.framework */,
 				90DAC46517C862390037CCC5 /* lib */,
 				90344F0E175DD8A2004DBC74 /* QuartzCore.framework */,
 				5874B69A10C8769200857C66 /* Libraries */,
+				F940353B195415D800891C03 /* ogp.jpg */,
+				F940353C195415D800891C03 /* ogp120.png */,
+				F94035431954199E00891C03 /* Icons */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -166,6 +211,29 @@
 			path = ../../lib;
 			sourceTree = "<group>";
 		};
+		F94035431954199E00891C03 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				F94035441954199E00891C03 /* Icon-60.png */,
+				F94035451954199E00891C03 /* Icon-60@2x.png */,
+				F94035461954199E00891C03 /* Icon-72.png */,
+				F94035471954199E00891C03 /* Icon-72@2x.png */,
+				F94035481954199E00891C03 /* Icon-76.png */,
+				F94035491954199E00891C03 /* Icon-76@2x.png */,
+				F940354A1954199E00891C03 /* Icon-Small-50.png */,
+				F940354B1954199E00891C03 /* Icon-Small-50@2x.png */,
+				F940354C1954199E00891C03 /* Icon-Small.png */,
+				F940354D1954199E00891C03 /* Icon-Small@2x.png */,
+				F940354E1954199E00891C03 /* Icon-Spotlight-40.png */,
+				F940354F1954199E00891C03 /* Icon-Spotlight-40@2x.png */,
+				F94035501954199E00891C03 /* Icon.png */,
+				F94035511954199E00891C03 /* Icon@2x.png */,
+				F94035521954199E00891C03 /* iTunesArtwork */,
+				F94035531954199E00891C03 /* iTunesArtwork@2x */,
+			);
+			path = Icons;
+			sourceTree = SOURCE_ROOT;
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -185,7 +253,7 @@
 			);
 			name = EEGApp;
 			productName = ThinkGearTouch;
-			productReference = 1D6058910D05DD3D006BFB54 /* EEGApp.app */;
+			productReference = 1D6058910D05DD3D006BFB54 /* EmotionAPI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -194,7 +262,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0600;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
 						DevelopmentTeam = QREANJF75U;
@@ -226,12 +294,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F940355B1954199E00891C03 /* Icon-Small-50@2x.png in Resources */,
+				F94035611954199E00891C03 /* Icon@2x.png in Resources */,
+				F94035631954199E00891C03 /* iTunesArtwork@2x in Resources */,
+				F94035571954199E00891C03 /* Icon-72@2x.png in Resources */,
+				F94035621954199E00891C03 /* iTunesArtwork in Resources */,
 				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				F94035581954199E00891C03 /* Icon-76.png in Resources */,
+				F940355F1954199E00891C03 /* Icon-Spotlight-40@2x.png in Resources */,
+				F940353D195415D800891C03 /* ogp.jpg in Resources */,
 				5874B55910C7454100857C66 /* no_accessory.png in Resources */,
+				F9403542195418CB00891C03 /* Default-568h@2x.png in Resources */,
+				F94035541954199E00891C03 /* Icon-60.png in Resources */,
+				F94035601954199E00891C03 /* Icon.png in Resources */,
 				AAE08AB110E2021E008BB459 /* Entitlements.plist in Resources */,
 				5810616E118F82BB00730595 /* Settings.bundle in Resources */,
+				F940355C1954199E00891C03 /* Icon-Small.png in Resources */,
 				904A6BBF17C5A4890065055B /* Storyboard_iPad.storyboard in Resources */,
+				F940355E1954199E00891C03 /* Icon-Spotlight-40.png in Resources */,
+				F940353E195415D800891C03 /* ogp120.png in Resources */,
+				F940355D1954199E00891C03 /* Icon-Small@2x.png in Resources */,
+				F940355A1954199E00891C03 /* Icon-Small-50.png in Resources */,
+				F94035561954199E00891C03 /* Icon-72.png in Resources */,
+				F94035401954167500891C03 /* Media.xcassets in Resources */,
 				9007485E17E6C00400267EA1 /* Storyboard.storyboard in Resources */,
+				F94035591954199E00891C03 /* Icon-76@2x.png in Resources */,
+				F94035551954199E00891C03 /* Icon-60@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +377,6 @@
 			baseConfigurationReference = 1B053B2DC94C41489C73EDA8 /* Pods.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -317,7 +404,7 @@
 					Security,
 					"-licucore",
 				);
-				PRODUCT_NAME = EEGApp;
+				PRODUCT_NAME = EmotionAPI;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
@@ -333,7 +420,6 @@
 			baseConfigurationReference = 1B053B2DC94C41489C73EDA8 /* Pods.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -359,7 +445,7 @@
 					Security,
 					"-licucore",
 				);
-				PRODUCT_NAME = EEGApp;
+				PRODUCT_NAME = EmotionAPI;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
@@ -371,7 +457,6 @@
 		AAE08AA410E201C4008BB459 /* Ad-hoc Deploy */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -397,7 +482,6 @@
 			baseConfigurationReference = 1B053B2DC94C41489C73EDA8 /* Pods.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -423,7 +507,7 @@
 					Security,
 					"-licucore",
 				);
-				PRODUCT_NAME = EEGApp;
+				PRODUCT_NAME = EmotionAPI;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
@@ -435,7 +519,6 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -445,6 +528,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lstdc++",
@@ -459,7 +543,6 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
