@@ -14,6 +14,7 @@
 @implementation RootViewController
 
 @synthesize loadingScreen;
+@synthesize idTextField;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -24,13 +25,12 @@
     [super viewWillAppear:animated];
     
     DeviceLabel.text = [NSString stringWithFormat:@"Device connection:NO"];
-    ServerLabel.text = [NSString stringWithFormat:@"Server connection:YES"];
+    ServerLabel.text = [NSString stringWithFormat:@"Server connection:NO"];
     
     rawData = [[NSMutableArray alloc]init];
     emotionData = [[NSArray alloc]init];
     callCount = 0;
 
-    
     //Set up for MindWave
     [[TGAccessoryManager sharedTGAccessoryManager] setDelegate:self];
     
@@ -38,7 +38,12 @@
     {
         [[TGAccessoryManager sharedTGAccessoryManager] startStream];
     }
+    self.emotionTextView.text = @"";
     
+    self.idTextField.delegate = self;
+}
+
+- (IBAction)connectButton:(id)sender {
     //Set up for socketIO
     socket = [[AZSocketIO alloc] initWithHost:@"49.212.129.143" andPort:@"3000" secure:NO];
     
@@ -50,6 +55,13 @@
     
     [socket connectWithSuccess:^{
         ServerLabel.text = [NSString stringWithFormat:@"Server connection:YES"];
+
+        NSArray *key = [NSArray arrayWithObjects:@"user_id", @"user_display_id", nil];
+        NSArray *value =
+        [NSArray arrayWithObjects:@"4C869DAE-2978-4AE0-9862-5B1FCDB5D33B", idTextField.text, nil];
+        id dic = [NSDictionary dictionaryWithObjects:value forKeys:key];
+        [socket emit:@"set_user_data" args:dic error:nil];
+
     } andFailure:^(NSError *error) {
         ServerLabel.text = [NSString stringWithFormat:@"Server connection:Error"];
     }];
@@ -137,9 +149,7 @@
 }
 
 - (void)sendEEGData:(NSMutableArray*)_rawData{
-
     NSString *joinedString = [_rawData componentsJoinedByString:@"\n"];
-    
     NSArray *key = [NSArray arrayWithObjects:@"user_id", @"data_id", @"data", @"timestamp", nil];
     NSArray *value =
     [NSArray arrayWithObjects:@"4C869DAE-2978-4AE0-9862-5B1FCDB5D33B", [NSString stringWithFormat:@"%d",callCount], joinedString, @"1401716309158", nil];
@@ -148,11 +158,18 @@
     callCount++;
 }
 
+- (BOOL) textFieldShouldReturn:(UITextField *)theTextField
+{
+    NSLog(@"test");
+    [theTextField resignFirstResponder];
+    return YES;
+}
+
+
 -(void)setEmotion:(id)_data{
     
     emotionData = [[_data description] componentsSeparatedByString:@"\n"];
-    
-    EmotionsLabel.text = [NSString stringWithFormat:@"Emotions:%d,%d,%d,%d,%d",
+    self.emotionTextView.text = [NSString stringWithFormat:@"Like: %d\nInterest: %d\nConcentration: %d\nDrowsiness: %d\nStress: %d",
                           [[emotionData objectAtIndex:3] intValue],//Like
                           [[emotionData objectAtIndex:4] intValue],//Interest
                           [[emotionData objectAtIndex:5] intValue],//Concentration

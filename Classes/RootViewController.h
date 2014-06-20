@@ -67,6 +67,10 @@ typedef struct {
     NSTimer *timer;
 }
 
+@property (weak, nonatomic) IBOutlet UITextView *emotionTextView;
+@property (weak, nonatomic) IBOutlet UITextField *idTextField;
+
+
 // TGAccessoryDelegate protocol methods
 - (void)accessoryDidConnect:(EAAccessory *)accessory;
 - (void)accessoryDidDisconnect;
