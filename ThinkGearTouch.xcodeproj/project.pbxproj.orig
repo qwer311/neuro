@@ -18,18 +18,13 @@
 		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
 		5810616E118F82BB00730595 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5810616D118F82BB00730595 /* Settings.bundle */; };
 		5874B55910C7454100857C66 /* no_accessory.png in Resources */ = {isa = PBXBuildFile; fileRef = 5874B55810C7454100857C66 /* no_accessory.png */; };
+		8DC3B17BC8D74F0BB9FB0A40 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D09DE939DD8C455882FFAEDA /* libPods.a */; };
 		9007485E17E6C00400267EA1 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9007485D17E6C00400267EA1 /* Storyboard.storyboard */; };
 		9009AC4417E806AD00EEFB86 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9009AC4317E806AD00EEFB86 /* MessageUI.framework */; };
 		9009AC4C17EAAF5600EEFB86 /* libTGAccessory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9009AC4B17EAAF5600EEFB86 /* libTGAccessory.a */; };
 		90344F0F175DD8A2004DBC74 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90344F0E175DD8A2004DBC74 /* QuartzCore.framework */; };
 		904A6BBF17C5A4890065055B /* Storyboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 904A6BBE17C5A4890065055B /* Storyboard_iPad.storyboard */; };
 		AAE08AB110E2021E008BB459 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = AAE08AB010E2021E008BB459 /* Entitlements.plist */; };
-		F03B62029B76F33CD3B97FA4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19201FD64ABC0EF5636E5876 /* libPods.a */; };
-		F922C7511A35E5600008BC65 /* GraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = F922C7501A35E5600008BC65 /* GraphView.m */; };
-		F9254D061A35F7DC007CAA74 /* VWHeadlineOT-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F9254D031A35F740007CAA74 /* VWHeadlineOT-Black.ttf */; };
-		F9254D071A35F7DE007CAA74 /* VWHeadlineOT-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F9254D041A35F740007CAA74 /* VWHeadlineOT-Book.ttf */; };
-		F9254D081A35F7E1007CAA74 /* VWHeadlineOT-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F9254D051A35F740007CAA74 /* VWHeadlineOT-Semibold.ttf */; };
-		F92662451A317D0300387B84 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F92662441A317D0300387B84 /* CoreLocation.framework */; };
 		F940353D195415D800891C03 /* ogp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F940353B195415D800891C03 /* ogp.jpg */; };
 		F940353E195415D800891C03 /* ogp120.png in Resources */ = {isa = PBXBuildFile; fileRef = F940353C195415D800891C03 /* ogp120.png */; };
 		F94035401954167500891C03 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F940353F1954167400891C03 /* Media.xcassets */; };
@@ -50,15 +45,14 @@
 		F94035611954199E00891C03 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F94035511954199E00891C03 /* Icon@2x.png */; };
 		F94035621954199E00891C03 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = F94035521954199E00891C03 /* iTunesArtwork */; };
 		F94035631954199E00891C03 /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = F94035531954199E00891C03 /* iTunesArtwork@2x */; };
-		F98370BE1A35E921002828A7 /* graph_chart_out.png in Resources */ = {isa = PBXBuildFile; fileRef = F98370BD1A35E921002828A7 /* graph_chart_out.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		19201FD64ABC0EF5636E5876 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B053B2DC94C41489C73EDA8 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* ThinkGearTouchAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThinkGearTouchAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* ThinkGearTouchAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThinkGearTouchAppDelegate.m; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* neurodrive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = neurodrive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* EmotionAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmotionAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		268327351593C23200D004F6 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		26A718B713CBD0BC00962E54 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
@@ -70,8 +64,6 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5810616D118F82BB00730595 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		5874B55810C7454100857C66 /* no_accessory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = no_accessory.png; path = Resources/no_accessory.png; sourceTree = "<group>"; };
-		67B45A26529E16E95D2656F9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		864B9368BDE20263C1898126 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* ThinkGearTouch-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ThinkGearTouch-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		9007485D17E6C00400267EA1 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		9009AC4317E806AD00EEFB86 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
@@ -81,13 +73,7 @@
 		90344F0E175DD8A2004DBC74 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		904A6BBE17C5A4890065055B /* Storyboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard_iPad.storyboard; sourceTree = "<group>"; };
 		AAE08AB010E2021E008BB459 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
-		B5B58E13ED19345FFB866F89 /* Pods.ad-hoc deploy.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods.ad-hoc deploy.xcconfig"; path = "Pods/Target Support Files/Pods/Pods.ad-hoc deploy.xcconfig"; sourceTree = "<group>"; };
-		F922C74F1A35E5600008BC65 /* GraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphView.h; sourceTree = "<group>"; };
-		F922C7501A35E5600008BC65 /* GraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphView.m; sourceTree = "<group>"; };
-		F9254D031A35F740007CAA74 /* VWHeadlineOT-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "VWHeadlineOT-Black.ttf"; path = "Resources/font/VWHeadlineOT-Black.ttf"; sourceTree = "<group>"; };
-		F9254D041A35F740007CAA74 /* VWHeadlineOT-Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "VWHeadlineOT-Book.ttf"; path = "Resources/font/VWHeadlineOT-Book.ttf"; sourceTree = "<group>"; };
-		F9254D051A35F740007CAA74 /* VWHeadlineOT-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "VWHeadlineOT-Semibold.ttf"; path = "Resources/font/VWHeadlineOT-Semibold.ttf"; sourceTree = "<group>"; };
-		F92662441A317D0300387B84 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D09DE939DD8C455882FFAEDA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F940353B195415D800891C03 /* ogp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ogp.jpg; sourceTree = "<group>"; };
 		F940353C195415D800891C03 /* ogp120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ogp120.png; sourceTree = "<group>"; };
 		F940353F1954167400891C03 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
@@ -108,8 +94,6 @@
 		F94035511954199E00891C03 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		F94035521954199E00891C03 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
 		F94035531954199E00891C03 /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iTunesArtwork@2x"; sourceTree = "<group>"; };
-		F98370BD1A35E921002828A7 /* graph_chart_out.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graph_chart_out.png; sourceTree = "<group>"; };
-		F9BD8E561A3187B80083118E /* EmotionAPI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = EmotionAPI.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +101,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F92662451A317D0300387B84 /* CoreLocation.framework in Frameworks */,
 				9009AC4417E806AD00EEFB86 /* MessageUI.framework in Frameworks */,
 				90344F0F175DD8A2004DBC74 /* QuartzCore.framework in Frameworks */,
 				268327361593C23200D004F6 /* Accelerate.framework in Frameworks */,
@@ -126,7 +109,7 @@
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
 				9009AC4C17EAAF5600EEFB86 /* libTGAccessory.a in Frameworks */,
-				F03B62029B76F33CD3B97FA4 /* libPods.a in Frameworks */,
+				8DC3B17BC8D74F0BB9FB0A40 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +119,6 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				F922C74F1A35E5600008BC65 /* GraphView.h */,
-				F922C7501A35E5600008BC65 /* GraphView.m */,
 				90344F09175DD266004DBC74 /* TGAccessoryDelegate.h */,
 				9009AC4D17EAAF8100EEFB86 /* TGAccessoryManager.h */,
 				28C286E00D94DF7D0034E888 /* RootViewController.m */,
@@ -153,7 +134,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* neurodrive.app */,
+				1D6058910D05DD3D006BFB54 /* EmotionAPI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -161,7 +142,6 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				F9BD8E561A3187B80083118E /* EmotionAPI.entitlements */,
 				F9403541195418CB00891C03 /* Default-568h@2x.png */,
 				F940353F1954167400891C03 /* Media.xcassets */,
 				9009AC4317E806AD00EEFB86 /* MessageUI.framework */,
@@ -176,7 +156,7 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				E4F87B000515C6144842E014 /* Pods */,
+				1B053B2DC94C41489C73EDA8 /* Pods.xcconfig */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -193,8 +173,6 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F9254D021A35F1B6007CAA74 /* font */,
-				F98370BD1A35E921002828A7 /* graph_chart_out.png */,
 				AAE08AB010E2021E008BB459 /* Entitlements.plist */,
 				5874B55810C7454100857C66 /* no_accessory.png */,
 				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
@@ -207,13 +185,12 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F92662441A317D0300387B84 /* CoreLocation.framework */,
 				268327351593C23200D004F6 /* Accelerate.framework */,
 				26A718B713CBD0BC00962E54 /* ExternalAccessory.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
-				19201FD64ABC0EF5636E5876 /* libPods.a */,
+				D09DE939DD8C455882FFAEDA /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -232,26 +209,6 @@
 			);
 			name = lib;
 			path = ../../lib;
-			sourceTree = "<group>";
-		};
-		E4F87B000515C6144842E014 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				864B9368BDE20263C1898126 /* Pods.debug.xcconfig */,
-				67B45A26529E16E95D2656F9 /* Pods.release.xcconfig */,
-				B5B58E13ED19345FFB866F89 /* Pods.ad-hoc deploy.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		F9254D021A35F1B6007CAA74 /* font */ = {
-			isa = PBXGroup;
-			children = (
-				F9254D031A35F740007CAA74 /* VWHeadlineOT-Black.ttf */,
-				F9254D041A35F740007CAA74 /* VWHeadlineOT-Book.ttf */,
-				F9254D051A35F740007CAA74 /* VWHeadlineOT-Semibold.ttf */,
-			);
-			name = font;
 			sourceTree = "<group>";
 		};
 		F94035431954199E00891C03 /* Icons */ = {
@@ -296,7 +253,7 @@
 			);
 			name = EEGApp;
 			productName = ThinkGearTouch;
-			productReference = 1D6058910D05DD3D006BFB54 /* neurodrive.app */;
+			productReference = 1D6058910D05DD3D006BFB54 /* EmotionAPI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -308,7 +265,11 @@
 				LastUpgradeCheck = 0600;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
-						DevelopmentTeam = DP94S2X35T;
+<<<<<<< HEAD
+						DevelopmentTeam = QREANJF75U;
+=======
+						DevelopmentTeam = E2KH8WX767;
+>>>>>>> 4609d3160a0120f053eb606e9fee4ed42d524df0
 					};
 				};
 			};
@@ -348,12 +309,9 @@
 				F940353D195415D800891C03 /* ogp.jpg in Resources */,
 				5874B55910C7454100857C66 /* no_accessory.png in Resources */,
 				F9403542195418CB00891C03 /* Default-568h@2x.png in Resources */,
-				F9254D081A35F7E1007CAA74 /* VWHeadlineOT-Semibold.ttf in Resources */,
 				F94035541954199E00891C03 /* Icon-60.png in Resources */,
 				F94035601954199E00891C03 /* Icon.png in Resources */,
 				AAE08AB110E2021E008BB459 /* Entitlements.plist in Resources */,
-				F9254D061A35F7DC007CAA74 /* VWHeadlineOT-Black.ttf in Resources */,
-				F98370BE1A35E921002828A7 /* graph_chart_out.png in Resources */,
 				5810616E118F82BB00730595 /* Settings.bundle in Resources */,
 				F940355C1954199E00891C03 /* Icon-Small.png in Resources */,
 				904A6BBF17C5A4890065055B /* Storyboard_iPad.storyboard in Resources */,
@@ -365,7 +323,6 @@
 				F94035401954167500891C03 /* Media.xcassets in Resources */,
 				9007485E17E6C00400267EA1 /* Storyboard.storyboard in Resources */,
 				F94035591954199E00891C03 /* Icon-76@2x.png in Resources */,
-				F9254D071A35F7DE007CAA74 /* VWHeadlineOT-Book.ttf in Resources */,
 				F94035551954199E00891C03 /* Icon-60@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,7 +357,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -413,7 +370,6 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* ThinkGearTouchAppDelegate.m in Sources */,
 				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
-				F922C7511A35E5600008BC65 /* GraphView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,20 +378,20 @@
 /* Begin XCBuildConfiguration section */
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 864B9368BDE20263C1898126 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 1B053B2DC94C41489C73EDA8 /* Pods.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = armv7;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_ENTITLEMENTS = EmotionAPI.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ThinkGearTouch_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "ThinkGearTouch-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -444,27 +400,39 @@
 					"\"$(SRCROOT)/Classes\"",
 				);
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_NAME = neurodrive;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					CFNetwork,
+					"-framework",
+					Security,
+					"-licucore",
+				);
+				PRODUCT_NAME = EmotionAPI;
 				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "";
-				VALID_ARCHS = "armv7 armv7s";
+				VALID_ARCHS = "armv7s armv7";
+				"VALID_ARCHS[sdk=*]" = "armv7s armv7";
 			};
 			name = Debug;
 		};
 		1D6058950D05DD3E006BFB54 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67B45A26529E16E95D2656F9 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 1B053B2DC94C41489C73EDA8 /* Pods.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = armv7;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_ENTITLEMENTS = EmotionAPI.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ThinkGearTouch_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "ThinkGearTouch-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -473,9 +441,20 @@
 					"\"$(SRCROOT)/Classes\"",
 				);
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_NAME = neurodrive;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					CFNetwork,
+					"-framework",
+					Security,
+					"-licucore",
+				);
+				PRODUCT_NAME = EmotionAPI;
 				PROVISIONING_PROFILE = "";
-				VALID_ARCHS = "armv7 armv7s";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7s armv7";
 			};
 			name = Release;
 		};
@@ -495,7 +474,6 @@
 					"-ObjC",
 					"-lstdc++",
 				);
-				PRODUCT_NAME = neurodrive;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
@@ -505,18 +483,18 @@
 		};
 		AAE08AA510E201C4008BB459 /* Ad-hoc Deploy */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5B58E13ED19345FFB866F89 /* Pods.ad-hoc deploy.xcconfig */;
+			baseConfigurationReference = 1B053B2DC94C41489C73EDA8 /* Pods.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = armv7;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_ENTITLEMENTS = EmotionAPI.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ThinkGearTouch_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "ThinkGearTouch-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -525,9 +503,20 @@
 					"\"$(SRCROOT)/Classes\"",
 				);
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_NAME = neurodrive;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					CFNetwork,
+					"-framework",
+					Security,
+					"-licucore",
+				);
+				PRODUCT_NAME = EmotionAPI;
 				PROVISIONING_PROFILE = "";
-				VALID_ARCHS = "armv7 armv7s";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7s armv7";
 			};
 			name = "Ad-hoc Deploy";
 		};
@@ -543,11 +532,11 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lstdc++",
 				);
-				PRODUCT_NAME = neurodrive;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
@@ -571,7 +560,6 @@
 					"-ObjC",
 					"-lstdc++",
 				);
-				PRODUCT_NAME = neurodrive;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
