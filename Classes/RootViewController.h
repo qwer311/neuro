@@ -86,6 +86,7 @@ CLLocationManagerDelegate> {
 @property (weak, nonatomic) IBOutlet GraphView *graphView;
 @property (weak, nonatomic) IBOutlet UITextField *idTextField;
 @property (weak, nonatomic) IBOutlet UITextField *numberTextField;
+@property (weak, nonatomic) IBOutlet UITextField *signalStrengthThreshold;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *courseSwitch;
 
 @property (weak, nonatomic) IBOutlet UIButton *connectButton;

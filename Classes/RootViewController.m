@@ -175,6 +175,7 @@
     }
     self.idTextField.delegate = self;
     self.numberTextField.delegate = self;
+    _signalStrengthThreshold.delegate = self;
     [self.locationManager startUpdatingLocation];
 
 }
@@ -193,7 +194,7 @@
 
 
 - (IBAction)connectButton:(id)sender {
-    [self.locationManager startUpdatingLocation];
+    NSLog(@"%d", [_signalStrengthThreshold.text intValue]);
 
     //Set up for socketIO
     socket = [[AZSocketIO alloc] initWithHost:@"133.242.211.204" andPort:@"2000" secure:NO withNamespace:@"/device"];
@@ -325,7 +326,7 @@
         temp = [temp stringByAppendingFormat:@"%f: Poor Signal: %d\n", [date timeIntervalSince1970], poorSignalValue];
         //NSLog(@"buffered raw count: %d", buffRawCount);
         buffRawCount = 0;
-        if(poorSignalValue == 200)
+        if(poorSignalValue >= [_signalStrengthThreshold.text intValue])
         {
             ElectrodeLabel.text = [NSString stringWithFormat:@"電極接触OK", poorSignalValue];
             ElectrodeLabel.textColor = [UIColor grayColor];
@@ -374,7 +375,7 @@
     callCount++;
 }
 
-- (BOOL) textFieldShouldReturn:(UITextField *)theTextField
+- (BOOL)textFieldShouldReturn:(UITextField *)theTextField
 {
     NSLog(@"test");
     [theTextField resignFirstResponder];
