@@ -2,8 +2,8 @@
 //  GraphView.m
 //  graphtest
 //
-//  Created by Ryohei Fushimi on 2014/12/5.
-//  Copyright (c) 2014 Ryohei Fushimi. All rights reserved.
+//  Created by yuppon on 2014/12/5.
+//  Copyright (c) 2014 yuppon. All rights reserved.
 //
 
 #import "GraphView.h"

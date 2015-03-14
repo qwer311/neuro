@@ -34,16 +34,11 @@
     }
     
     // set the root UIViewController as the delegate object.
-//    _window.rootViewController = [[navigationController viewControllers] objectAtIndex:0];
-//    [[TGAccessoryManager sharedTGAccessoryManager] setDelegate:(RootViewController*)[[navigationController viewControllers] objectAtIndex:0]];
-//    [[TGAccessoryManager sharedTGAccessoryManager] setDelegate:[[navigationController viewControllers] objectAtIndex:0]];
     [[TGAccessoryManager sharedTGAccessoryManager] setDelegate:(RootViewController*)[self.navigationController.viewControllers objectAtIndex:0]];
-        //[[TGAccessoryManager sharedTGAccessoryManager] setRespirationEnabled:NO];
     
     [[TGAccessoryManager sharedTGAccessoryManager] setRawEnabled:rawEnabled];
         [[TGAccessoryManager sharedTGAccessoryManager] setRespirationEnabled:NO];
     
-//    navigationController = (UINavigationController *)self.window.rootViewController;
     [_window addSubview:navigationController.view];
     [_window makeKeyAndVisible];    
     
