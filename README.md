@@ -1,9 +1,5 @@
 # NeuroCloud API
 
-## BASIC Authentication
-
-User: neuroAPI
-Pass: qhsq9WqzUee7Ei
 
 ## Demo
 
